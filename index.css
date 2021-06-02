@@ -64,6 +64,10 @@ section {
     padding: 4% 0;
 }
 
+.bold {
+    font-weight: bold;
+}
+
 /* navbar styles */
 nav {
     padding: 2% 0;
@@ -71,11 +75,12 @@ nav {
 
 nav a {
     display: inline-block;
-    padding: 1% 0;
+    padding: 0.5%;
     width: 10%;
     border-radius: 10px;
     text-align: center;
     color: white;
+    text-decoration: none;
 }
 
 .orange {
@@ -101,7 +106,7 @@ nav a {
 
 .left img {
     border-radius: 50%;
-    width: 70%;
+    width: 60%;
 }
 
 .left, .right {
@@ -120,12 +125,47 @@ nav a {
     margin-left: 3%;
 }
 
+.right p {
+    margin: 5% 15%;
+}
+
+.right h2 {
+    margin: 5%;
+}
+
 .heroImg {
     height: 50vh;
     background-image:url('assets/footer_img.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
+}
+
+/* info box styles */
+.info-box {
+    margin: 3%;
+    padding: 1%;
+    text-align: center;
+    background-color: #ddb9a3;
+    color: white; 
+}
+.info-box p {
+    margin-bottom: 1%;
+}
+
+/* icon box styles */
+.icon-boxes {
+    text-align: center;
+}
+
+.icon-box {
+    margin: 2% auto;
+    width: 25%;
+    font-size: 1.2rem;
+}
+
+.icon-box img {
+    width: 75%;
 }
 
 /* footer styles */
